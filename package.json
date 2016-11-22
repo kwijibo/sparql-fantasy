@@ -1,0 +1,29 @@
+{
+  "name": "sparql-fantasy",
+  "version": "1.0.0",
+  "description": "sparql client library",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Keith Alexander",
+  "license": "GPL-3.0",
+  "keywords": [
+    "sparql",
+    "rdf",
+    "fantasy-land"
+  ],
+  "dependencies": {
+    "fantasy-readers": "fantasyland/fantasy-readers",
+    "futurize": "^1.0.2",
+    "ramda-fantasy": "^0.7.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.18.0",
+    "babel-plugin-transform-es2015-modules-commonjs": "^6.18.0",
+    "babel-preset-es2015": "^6.18.0",
+    "babelify": "^7.3.0",
+    "rollup-plugin-commonjs": "^5.0.5",
+    "rollup-plugin-node-resolve": "^2.0.0"
+  }
+}
